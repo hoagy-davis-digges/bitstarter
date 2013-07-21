@@ -4,7 +4,7 @@ app.use(express.logger());
 
 app.get('/', function(request, response) {
  res.format({'text/plain': function(){
- response.send('Hello World!')};
+ response.send('Hello World!')}
 })});
 
 var port = process.env.PORT || 5000;
